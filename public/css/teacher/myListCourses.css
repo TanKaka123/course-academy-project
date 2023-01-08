@@ -1,0 +1,70 @@
+.searchInMyList{
+    /* width: 100%; */
+    height: 150px;
+    background: #FDFBFB;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.buttonCreateCourse:hover{
+    color: #000000;
+}
+#myInput{
+    width: 50%;
+}
+.listOfCourse{
+    box-sizing: border-box;
+    display: block;
+}
+.course{
+    margin-bottom: 1rem;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.courseImgAndInfo{
+    justify-content: flex-start;
+
+    /* margin-right: 10rem; */
+}
+.imgCourseBox{
+    flex: 0 0 auto;
+    min-width: 0.1rem;
+    margin: 0 0.1rem 0 0;
+}
+.course img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 160px;
+}
+
+.info{
+    flex-direction: column;
+    height: 120px;
+    margin-top: 14px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 2.4rem;
+    grid-area: action;
+}
+
+
+.starRating{
+   display: flex;
+}
+.starColor > i{
+    color: #EDBB0E;
+}
+.btn_edit{
+    width: 7rem;
+    height: 2.3rem;
+    background-color: #E9EAEC;
+    color: #000000;
+}
+.box_btn_edit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
